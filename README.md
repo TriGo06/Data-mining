@@ -46,7 +46,6 @@ This project aims to predict loan payment defaults using various classification 
    - Applied the optimal classifier to predict defaults for new clients.
 
 ## Key Results
-
 - **Best Model**: Naive Bayes on the `SansrevQ` dataset.
 - **Feature Engineering**:
   - New variable `DE` significantly improved model accuracy.
@@ -54,14 +53,18 @@ This project aims to predict loan payment defaults using various classification 
 
 ## File
 - **Code**: [Code_DataMining_project.R](./Code_DataMining_project.R)
+- **Dataset**: [projet.csv](./projet.csv)
+- **New Predictions Dataset**: [projet_new.csv](./projet_new.csv)
 
 ## Usage
-
 1. Load and preprocess data from `projet.csv`.
 2. Train and evaluate classifiers using the provided R script.
 3. Apply the optimal model to `projet_new.csv` for predictions.
 
 ## Future Improvements
-
 - Integrate financial impact analysis to weigh false negatives and positives.
 - Enhance feature engineering with domain-specific insights.
+
+## Authors
+- Tristan Gonçalves
+- Pierre-François Pinelli
